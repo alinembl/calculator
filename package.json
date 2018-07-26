@@ -1,9 +1,9 @@
 {
-  "name": "Mentoria",
+  "name": "calculator",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
-  "main": "aula-modulos.js",
+  "main": "src/calculator.js",
   "scripts": {
     "test": "mocha --require babel-register test/calculator.test.js",
     "test:watch": "mocha -w --require babel-register test/calculator.test.js"

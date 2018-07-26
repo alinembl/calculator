@@ -1,0 +1,37 @@
+/**
+ * - [ ] Módulos
+ *   - [ ] Princípio de responsabilidade única
+ * - [ ] Testes automáticos
+ */
+
+// e-commerce.js
+// lots of useful code for e-commerce transactions
+function buy (products, creditCard) {
+  /*
+  Example of `products`:
+    [
+      { title: "Headphone Bluetooth JBL 123ABC", price: 19900 },
+      { title: "Speaker Bluetooth JBL GO", price: 9900 },
+      { title: "MacBook Pro 2010", price: 299900 },
+    ]
+
+  Example of `creditCard`:
+  { digits: "1234123412341234", validDate: "012021", ccv: "123" }
+
+  { orderId: '1234567890', status: 'ORDER_STATUS_PAYMENT_APPROVED' }
+  or
+  throw new PaymentError
+  */
+}
+
+export buy
+
+
+// cart.js
+import buy from 'e-coomerce'
+
+buy([
+  { title: "Headphone Bluetooth JBL 123ABC", price: 19900 },
+  { title: "Speaker Bluetooth JBL GO", price: 9900 },
+  { title: "MacBook Pro 2010", price: 299900 },
+], { digits: "1234123412341234", validDate: "012021", ccv: "123" })
