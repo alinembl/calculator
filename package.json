@@ -1,0 +1,20 @@
+{
+  "name": "Mentoria",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "main": "aula-modulos.js",
+  "scripts": {
+    "test": "mocha --require babel-register test/calculator.test.js",
+    "test:watch": "mocha -w --require babel-register test/calculator.test.js"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
